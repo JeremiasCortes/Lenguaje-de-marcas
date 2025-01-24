@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+</head>
+<body>
+<nav>
+    <ul>
+        <li><a href="/index.html">Inicio</a></li>
+    </ul>
+</nav>
+
+<header>
+    <h1>Contacto</h1>
+    <p>Para cualquier duda o comentario, por favor ponte en contacto </p>
+</header>
+
+
+
+<main>
+    <form action="mailto:jeremias@cortes.com" method="post">
+        <label for="nombre">Nombre:</label>
+        <input type="text" name="nombre" id="nombre" required minlength="2" maxlength="20">
+        <label for="email">Correo:</label>
+        <input type="email" name="email" id="email" required>
+        <label for="mensaje">Mensaje:</label>
+        <textarea name="mensaje" id="mensaje" required maxlength="150"></textarea>
+        <button type="submit">Enviar</button>
+</main>
+</body>
+</html>
