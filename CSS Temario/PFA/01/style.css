@@ -1,0 +1,109 @@
+/* Reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+/* End of reset */
+
+/* General  */
+
+div {
+    width: 250px;
+    margin: 0 auto;
+}
+img {
+    width: 100%;
+    height: auto;
+    box-shadow: 2px 2px 2px rgb(0, 0, 0);
+}
+
+table {
+    margin-top: 10px;
+    width: 100%;
+}
+
+tr, td {
+    border: 3px solid red;
+    border-collapse: collapse;
+}
+
+
+td{
+    padding: 5px;
+    font-family: Impact;
+}
+
+th{
+    font-family: Verdana !important;
+    background: pink;
+    font-weight: bold;
+}
+
+td:nth-child(1){
+    background: hotpink;
+}
+
+th:nth-child(1n){
+    width: 15%;
+}
+
+th:nth-child(2n){
+    width: 60%;
+}
+
+th:nth-child(3n){
+    width: 25%;
+}
+
+#reproduciendo {
+    background: yellow;
+    color: red;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px rgb(0, 0, 0);
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10%;
+}

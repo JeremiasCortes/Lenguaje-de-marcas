@@ -1,0 +1,170 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #121212;
+    color: white;
+}
+
+/* Barra de navegación con efecto moderno */
+nav {
+    background: linear-gradient(45deg, #1a1a1a, #333);
+    padding: 15px 0;
+    text-align: center;
+    width: 100%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    position: fixed;
+    z-index: 1000;
+
+}
+
+/* Menú principal */
+.menu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.menu li {
+    position: relative;
+}
+
+/* Estilos para los enlaces principales */
+.menu a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 12px 20px;
+    display: inline-block;
+    transition: all 0.3s ease-in-out;
+    border-radius: 8px;
+}
+
+.menu a:active {
+    color: aqua;
+}
+
+/* Efecto de neón al pasar el cursor */
+.menu a:hover {
+    color: #ffcc00;
+    text-shadow: 0 0 10px #ffcc00;
+    transform: scale(1.05);
+}
+
+/* Efecto de subrayado animado */
+.menu a::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: 5px;
+    width: 0;
+    height: 3px;
+    background: #ffcc00;
+    border-radius: 5px;
+    transition: width 0.3s ease-in-out, left 0.3s ease-in-out;
+}
+
+.menu a:hover::after {
+    width: 100%;
+    left: 0;
+}
+
+/* ---- Submenú ---- */
+.submenu {
+    list-style: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: rgba(26, 26, 26, 0.95);
+    min-width: 180px;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(10px);
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(255, 204, 0, 0.2);
+    overflow: hidden;
+    padding: 10px 0;
+}
+
+/* Elementos del submenú */
+.submenu li {
+    text-align: left;
+}
+
+/* Estilo de enlaces en el submenú */
+.submenu a {
+    display: block;
+    padding: 12px 18px;
+    color: #ffcc00;
+    font-size: 16px;
+    transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+/* Efecto hover en submenú */
+.submenu a:hover {
+    background: #ffcc00;
+    color: #1a1a1a;
+}
+
+/* Mantener el submenú visible cuando se pase el cursor */
+.menu li:hover > .submenu {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+/*====================================================================================================*/
+
+
+* {
+    font-family: "Big Shoulders Stencil", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #121212;
+    color: white;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Estilos para el contenido principal */
+main {
+    max-width: 1200px;
+    width: 100%;
+    padding: 20px;
+    background: #1a1a1a;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    margin: 20px 0;
+    margin-top: 60px; /* Ajusta este valor según la altura de tu nav */
+}
+
+section {
+    margin-bottom: 100px;
+    scroll-margin-top: 100px;
+}
+
+main h1, main h2 {
+    color: #ffcc00;
+    margin-bottom: 20px;
+}
+
+main p {
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
