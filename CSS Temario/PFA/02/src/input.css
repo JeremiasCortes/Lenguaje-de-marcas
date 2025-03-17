@@ -9,3 +9,7 @@
     --color-fondo-gris: #1F1F1F;
     --color-subtext: #AEAEAE;
 }
+
+hr {
+    border-top: 1.5px solid var(--color-gris);
+}

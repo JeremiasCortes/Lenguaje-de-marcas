@@ -70,108 +70,422 @@
     </div>
 </nav>
 
-
 <main class="space-y-8 h-auto">
-    <h2 class="text-4xl pt-8 pl-8 font-bold text-text">Novedades</h2>
-    <hr class="border-3 border-gris mt-8 mx-8">
-
-
-    <div class="flex flex-row p-4">
-        <ul class="flex w-full items-center justify-around">
-            <li>
-                <div>
-                    <a href="https://music.apple.com/es/album/i-said-i-love-you-first/1795151519" class="space-y-2.5">
-                        <div>
-                            <p class="text-subtext uppercase">Reserva ahora</p>
-                            <h3 class="text-2xl font-bold text-text">I Said I Love You First</h3>
-                            <p class="text-subtext">Selena Gomez & Benny Blanco</p>
-                        </div>
-                        <div>
-                            <img src="assets/img/g-1.webp" alt="Portada Grande 1"
-                                 class="w-80 h-auto rounded-3xl hover:scale-110 transition-transform duration-500">
-                        </div>
-                    </a>
-                </div>
-            </li>
-            <li>
-                <div>
-                    <a href="https://music.apple.com/es/playlist/kpopwrld/pl.48229b41bbfc47d7af39dae8e8b5276e"
-                       class="space-y-2.5">
-                        <div>
-                            <p class="text-subtext uppercase">Playlist Actualizada</p>
-                            <h3 class="text-2xl font-bold text-text">KPOPWORLD</h3>
-                            <p class="text-subtext">Apple Music K-pop</p>
-                        </div>
-                        <div>
-                            <img src="assets/img/g-2.webp" alt="Portada Grande 2"
-                                 class="w-80 h-auto rounded-3xl hover:scale-110 transition-transform duration-500">
-                        </div>
-                    </a>
-                </div>
-            </li>
-
-            <li>
-                <div>
-                    <a href="https://music.apple.com/es/playlist/%C3%A9xitos-de-hoy/pl.f4d106fed2bd41149aaacabb233eb5eb"
-                       class="space-y-2.5">
-                        <div>
-                            <p class="text-subtext uppercase">Playlist Actualizada</p>
-                            <h3 class="text-2xl font-bold text-text">Éxitos de Hoy</h3>
-                            <p class="text-subtext">Apple Music Hits</p>
-                        </div>
-                        <div>
-                            <img src="assets/img/g-3.webp" alt="Portada Grande 3"
-                                 class="w-80 h-auto rounded-3xl hover:scale-110 transition-transform duration-500">
-                        </div>
-                    </a>
-                </div>
-            </li>
-            <li>
-                <div>
-                    <a href="https://music.apple.com/es/album/hot-ep/1799278610" class="space-y-2.5">
-                        <div>
-                            <p class="text-subtext uppercase">Audio Espacial</p>
-                            <h3 class="text-2xl font-bold text-text">HOT - EP</h3>
-                            <p class="text-subtext">LE SSERAFIM</p>
-                        </div>
-                        <div>
-                            <img src="assets/img/g-4.webp" alt="Portada Grande 4"
-                                 class="w-80 h-auto rounded-3xl hover:scale-110 transition-transform duration-500">
-                        </div>
-                    </a>
-                </div>
-            </li>
-            <li>
-                <div>
-                    <a href="https://music.apple.com/es/album/nacer-de-nuevo/1801545899" class="space-y-2.5">
-                        <div class="">
-                            <p class="text-subtext uppercase">Nuevo álbum</p>
-                            <h3 class="text-2xl font-bold text-text">Nacer de Nuevo</h3>
-                            <p class="text-subtext">JC Reyes</p>
-                        </div>
-                        <div>
-                            <img src="assets/img/g-5.webp" alt="Portada Grande 5"
-                                 class="w-80 h-auto rounded-3xl hover:scale-110 transition-transform duration-500">
-                        </div>
-                    </a>
-                </div>
-            </li>
-        </ul>
-    </div>
-
-
-    <div class="flex flex-row p-4">
-        <div class="flex flex-1 w-full items-start">
-            <h2 class="text-4xl pt-8 pl-8 font-bold text-text">
-                <button>
-                    <span>Canciones recién llegadas</span>
-                    <svg class="text-detalles w-3 h-auto"  viewBox="0 0 64 64" aria-hidden="true">
-                        <path d="M19.817 61.863c1.48 0 2.672-.515 3.702-1.546l24.243-23.63c1.352-1.385 1.996-2.737 2.028-4.443 0-1.674-.644-3.09-2.028-4.443L23.519 4.138c-1.03-.998-2.253-1.513-3.702-1.513-2.994 0-5.409 2.382-5.409 5.344 0 1.481.612 2.833 1.739 3.96l20.99 20.347-20.99 20.283c-1.127 1.126-1.739 2.478-1.739 3.96 0 2.93 2.415 5.344 5.409 5.344Z"></path>
-                    </svg>
-                </button>
-            </h2>
+    <!-- Contenedor de la categoría Novedades -->
+    <div class="space-y-4 py-2 px-15">
+        <!-- Contenedor del título y la línea -->
+        <div class="space-y-4">
+            <h2 class="text-4xl font-bold text-text">Novedades</h2>
+            <hr class="border-1.5 border-gris">
         </div>
+
+        <!-- Contenedor de las novedades -->
+        <div class="flex flex-row w-full items-center justify-between">
+            <ul class="flex w-full items-center justify-between">
+                <li>
+                    <div>
+                        <a href="https://music.apple.com/es/album/i-said-i-love-you-first/1795151519"
+                           class="space-y-2.5">
+                            <div>
+                                <p class="text-subtext uppercase">Reserva ahora</p>
+                                <h3 class="text-2xl font-bold text-text">I Said I Love You First</h3>
+                                <p class="text-subtext">Selena Gomez & Benny Blanco</p>
+                            </div>
+                            <div>
+                                <img src="assets/img/g-1.webp" alt="Portada Grande 1"
+                                     class="w-80 h-auto rounded-3xl hover:scale-110 transition-transform duration-500">
+                            </div>
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <a href="https://music.apple.com/es/playlist/kpopwrld/pl.48229b41bbfc47d7af39dae8e8b5276e"
+                           class="space-y-2.5">
+                            <div>
+                                <p class="text-subtext uppercase">Playlist Actualizada</p>
+                                <h3 class="text-2xl font-bold text-text">KPOPWORLD</h3>
+                                <p class="text-subtext">Apple Music K-pop</p>
+                            </div>
+                            <div>
+                                <img src="assets/img/g-2.webp" alt="Portada Grande 2"
+                                     class="w-80 h-auto rounded-3xl hover:scale-110 transition-transform duration-500">
+                            </div>
+                        </a>
+                    </div>
+                </li>
+
+                <li>
+                    <div>
+                        <a href="https://music.apple.com/es/playlist/%C3%A9xitos-de-hoy/pl.f4d106fed2bd41149aaacabb233eb5eb"
+                           class="space-y-2.5">
+                            <div>
+                                <p class="text-subtext uppercase">Playlist Actualizada</p>
+                                <h3 class="text-2xl font-bold text-text">Éxitos de Hoy</h3>
+                                <p class="text-subtext">Apple Music Hits</p>
+                            </div>
+                            <div>
+                                <img src="assets/img/g-3.webp" alt="Portada Grande 3"
+                                     class="w-80 h-auto rounded-3xl hover:scale-110 transition-transform duration-500">
+                            </div>
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <a href="https://music.apple.com/es/album/hot-ep/1799278610" class="space-y-2.5">
+                            <div>
+                                <p class="text-subtext uppercase">Audio Espacial</p>
+                                <h3 class="text-2xl font-bold text-text">HOT - EP</h3>
+                                <p class="text-subtext">LE SSERAFIM</p>
+                            </div>
+                            <div>
+                                <img src="assets/img/g-4.webp" alt="Portada Grande 4"
+                                     class="w-80 h-auto rounded-3xl hover:scale-110 transition-transform duration-500">
+                            </div>
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <a href="https://music.apple.com/es/album/nacer-de-nuevo/1801545899" class="space-y-2.5">
+                            <div>
+                                <p class="text-subtext uppercase">Nuevo álbum</p>
+                                <h3 class="text-2xl font-bold text-text">Nacer de Nuevo</h3>
+                                <p class="text-subtext">JC Reyes</p>
+                            </div>
+                            <div>
+                                <img src="assets/img/g-5.webp" alt="Portada Grande 5"
+                                     class="w-80 h-auto rounded-3xl hover:scale-110 transition-transform duration-500">
+                            </div>
+                        </a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+
+        <!-- Contenedor del texto categoría recien llegadas -->
+        <div class="flex flex-row py-2 ">
+            <div class="flex flex-1 w-full">
+                <h2 class="text-2xl flex font-bold text-text items-center">
+                    <button class="flex items-center space-x-4 cursor-pointer">
+                        <span>Canciones recién llegadas</span>
+                        <svg class="w-4 h-auto text-white pt-1.5" fill="currentColor" viewBox="0 0 64 64"
+                             aria-hidden="true">
+                            <path d="M19.817 61.863c1.48 0 2.672-.515 3.702-1.546l24.243-23.63c1.352-1.385 1.996-2.737 2.028-4.443 0-1.674-.644-3.09-2.028-4.443L23.519 4.138c-1.03-.998-2.253-1.513-3.702-1.513-2.994 0-5.409 2.382-5.409 5.344 0 1.481.612 2.833 1.739 3.96l20.99 20.347-20.99 20.283c-1.127 1.126-1.739 2.478-1.739 3.96 0 2.93 2.415 5.344 5.409 5.344Z"></path>
+                        </svg>
+                    </button>
+                </h2>
+            </div>
+        </div>
+
+        <!-- Contenedor de las canciones recién llegadas -->
+        <div class="flex flex-row py-2 justify-between">
+
+
+            <!-- Listado de canciones | Completado-->
+            <div class="flex-1 justify-between">
+                <ul class="list-reset flex flex-col space-y-3 items-center justify-between px-10 p-2">
+
+                    <!-- Completado | Esto es una canción -->
+                    <li class="space-y-2.5 w-full">
+                        <hr class="">
+                        <a href="" class="flex items-center space-x-4 px-2">
+                            <img src="assets/img/shallow%20ecstasy.jpeg" alt="Portada Pequeña 1.1"
+                                 class="w-15 h-15 object-cover rounded-lg basis-1/10">
+                            <div class="basis-8/10">
+                                <h3 class="text-md text-text">Shallow Ecstasy</h3>
+                                <p class="text-subtext">Tómarúm</p>
+                            </div>
+                            <svg class="text-detalles basis-1/10" fill="currentColor" height="24px"
+                                 viewBox="0 -960 960 960" width="24px">
+                                <path d="M240-400q-33 0-56.5-23.5T160-480q0-33 23.5-56.5T240-560q33 0 56.5 23.5T320-480q0 33-23.5 56.5T240-400Zm240 0q-33 0-56.5-23.5T400-480q0-33 23.5-56.5T480-560q33 0 56.5 23.5T560-480q0 33-23.5 56.5T480-400Zm240 0q-33 0-56.5-23.5T640-480q0-33 23.5-56.5T720-560q33 0 56.5 23.5T800-480q0 33-23.5 56.5T720-400Z"/>
+                            </svg>
+                        </a>
+                    </li>
+
+                    <!-- Completado | Esto es una canción -->
+                    <li class="space-y-2.5 w-full">
+                        <hr class="">
+                        <a href="" class="flex items-center space-x-4 px-2">
+                            <img src="assets/img/Time%20Will%20Let%20You%20Know.jpeg" alt="Portada Pequeña"
+                                 class="w-15 h-15 object-cover rounded-lg basis-1/10">
+                            <div class="basis-8/10">
+                                <h3 class="text-md text-text">Time Will Let You Know</h3>
+                                <p class="text-subtext">Todd Day Wait</p>
+                            </div>
+                            <svg class="text-detalles basis-1/10" fill="currentColor" height="24px"
+                                 viewBox="0 -960 960 960" width="24px">
+                                <path d="M240-400q-33 0-56.5-23.5T160-480q0-33 23.5-56.5T240-560q33 0 56.5 23.5T320-480q0 33-23.5 56.5T240-400Zm240 0q-33 0-56.5-23.5T400-480q0-33 23.5-56.5T480-560q33 0 56.5 23.5T560-480q0 33-23.5 56.5T480-400Zm240 0q-33 0-56.5-23.5T640-480q0-33 23.5-56.5T720-560q33 0 56.5 23.5T800-480q0 33-23.5 56.5T720-400Z"/>
+                            </svg>
+                        </a>
+                    </li>
+
+                    <!-- Completado | Esto es una canción -->
+                    <li class="space-y-2.5 w-full">
+                        <hr class="">
+                        <a href="" class="flex items-center space-x-4 px-2">
+                            <img src="assets/img/Dueling%20Sunsets.jpeg" alt="Portada Pequeña"
+                                 class="w-15 h-15 object-cover rounded-lg basis-1/10">
+                            <div class="basis-8/10">
+                                <h3 class="text-md text-text">Dueling Sunsets</h3>
+                                <p class="text-subtext">Dawn of Ouroboros</p>
+                            </div>
+                            <svg class="text-detalles basis-1/10" fill="currentColor" height="24px"
+                                 viewBox="0 -960 960 960" width="24px">
+                                <path d="M240-400q-33 0-56.5-23.5T160-480q0-33 23.5-56.5T240-560q33 0 56.5 23.5T320-480q0 33-23.5 56.5T240-400Zm240 0q-33 0-56.5-23.5T400-480q0-33 23.5-56.5T480-560q33 0 56.5 23.5T560-480q0 33-23.5 56.5T480-400Zm240 0q-33 0-56.5-23.5T640-480q0-33 23.5-56.5T720-560q33 0 56.5 23.5T800-480q0 33-23.5 56.5T720-400Z"/>
+                            </svg>
+                        </a>
+                    </li>
+
+                    <!-- Completado | Esto es una canción -->
+                    <li class="space-y-2.5 w-full">
+                        <hr class="">
+                        <a href="" class="flex items-center space-x-4 px-2">
+                            <img src="assets/img/Rise%20and%20Grind%20(feat.%20Charlie%20Starr).jpg"
+                                 alt="Portada Pequeña"
+                                 class="w-15 h-15 object-cover rounded-lg basis-1/10">
+                            <div class="basis-8/10">
+                                <h3 class="text-md text-text">Rise and Grind (feat. Charlie Starr)</h3>
+                                <p class="text-subtext">Ricky Warwick</p>
+                            </div>
+                            <svg class="text-detalles basis-1/10" fill="currentColor" height="24px"
+                                 viewBox="0 -960 960 960" width="24px">
+                                <path d="M240-400q-33 0-56.5-23.5T160-480q0-33 23.5-56.5T240-560q33 0 56.5 23.5T320-480q0 33-23.5 56.5T240-400Zm240 0q-33 0-56.5-23.5T400-480q0-33 23.5-56.5T480-560q33 0 56.5 23.5T560-480q0 33-23.5 56.5T480-400Zm240 0q-33 0-56.5-23.5T640-480q0-33 23.5-56.5T720-560q33 0 56.5 23.5T800-480q0 33-23.5 56.5T720-400Z"/>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+
+            <!-- Listado de canciones | Completado -->
+            <div class="flex-1 justify-between">
+                <ul class="list-reset flex flex-col space-y-3 items-center justify-between px-10 p-2">
+
+                    <!-- Completado | Esto es una canción -->
+                    <li class="space-y-2.5 w-full">
+                        <hr class="">
+                        <a href="" class="flex items-center space-x-4 px-2">
+                            <img src="assets/img/Comin'%20In%20Hard.jpeg" alt="Portada Pequeña"
+                                 class="w-15 h-15 object-cover rounded-lg basis-1/10">
+                            <div class="basis-8/10">
+                                <h3 class="text-md text-text">Comin' In Hard</h3>
+                                <p class="text-subtext">Raping Speedhorn</p>
+                            </div>
+                            <svg class="text-detalles basis-1/10" fill="currentColor" height="24px"
+                                 viewBox="0 -960 960 960" width="24px">
+                                <path d="M240-400q-33 0-56.5-23.5T160-480q0-33 23.5-56.5T240-560q33 0 56.5 23.5T320-480q0 33-23.5 56.5T240-400Zm240 0q-33 0-56.5-23.5T400-480q0-33 23.5-56.5T480-560q33 0 56.5 23.5T560-480q0 33-23.5 56.5T480-400Zm240 0q-33 0-56.5-23.5T640-480q0-33 23.5-56.5T720-560q33 0 56.5 23.5T800-480q0 33-23.5 56.5T720-400Z"/>
+                            </svg>
+                        </a>
+                    </li>
+
+                    <!-- Completado | Esto es una canción -->
+                    <li class="space-y-2.5 w-full">
+                        <hr class="">
+                        <a href="" class="flex items-center space-x-4 px-2">
+                            <img src="assets/img/Resume%20(feat.%202%20Chainz).jpeg" alt="Portada Pequeña"
+                                 class="w-15 h-15 object-cover rounded-lg basis-1/10">
+                            <div class="basis-8/10">
+                                <h3 class="text-md text-text">Resume (feat. 2 Chainz)</h3>
+                                <p class="text-subtext">The Colleagues</p>
+                            </div>
+                            <svg class="text-detalles basis-1/10" fill="currentColor" height="24px"
+                                 viewBox="0 -960 960 960" width="24px">
+                                <path d="M240-400q-33 0-56.5-23.5T160-480q0-33 23.5-56.5T240-560q33 0 56.5 23.5T320-480q0 33-23.5 56.5T240-400Zm240 0q-33 0-56.5-23.5T400-480q0-33 23.5-56.5T480-560q33 0 56.5 23.5T560-480q0 33-23.5 56.5T480-400Zm240 0q-33 0-56.5-23.5T640-480q0-33 23.5-56.5T720-560q33 0 56.5 23.5T800-480q0 33-23.5 56.5T720-400Z"/>
+                            </svg>
+                        </a>
+                    </li>
+
+                    <!-- Completado | Esto es una canción -->
+                    <li class="space-y-2.5 w-full">
+                        <hr class="">
+                        <a href="" class="flex items-center space-x-4 px-2">
+                            <img src="assets/img/Alla%20sover.jpeg" alt="Portada Pequeña"
+                                 class="w-15 h-15 object-cover rounded-lg basis-1/10">
+                            <div class="basis-8/10">
+                                <h3 class="text-md text-text">Alla sover</h3>
+                                <p class="text-subtext">Svarta Havet</p>
+                            </div>
+                            <svg class="text-detalles basis-1/10" fill="currentColor" height="24px"
+                                 viewBox="0 -960 960 960" width="24px">
+                                <path d="M240-400q-33 0-56.5-23.5T160-480q0-33 23.5-56.5T240-560q33 0 56.5 23.5T320-480q0 33-23.5 56.5T240-400Zm240 0q-33 0-56.5-23.5T400-480q0-33 23.5-56.5T480-560q33 0 56.5 23.5T560-480q0 33-23.5 56.5T480-400Zm240 0q-33 0-56.5-23.5T640-480q0-33 23.5-56.5T720-560q33 0 56.5 23.5T800-480q0 33-23.5 56.5T720-400Z"/>
+                            </svg>
+                        </a>
+                    </li>
+
+                    <!-- Completado | Esto es una canción -->
+                    <li class="space-y-2.5 w-full">
+                        <hr class="">
+                        <a href="" class="flex items-center space-x-4 px-2">
+                            <img src="assets/img/Chains%20Of%20Sorrow.jpeg" alt="Portada Pequeña"
+                                 class="w-15 h-15 object-cover rounded-lg basis-1/10">
+                            <div class="basis-8/10">
+                                <h3 class="text-md text-text">Chains Of Sorrow</h3>
+                                <p class="text-subtext">Destruction</p>
+                            </div>
+                            <svg class="text-detalles basis-1/10" fill="currentColor" height="24px"
+                                 viewBox="0 -960 960 960" width="24px">
+                                <path d="M240-400q-33 0-56.5-23.5T160-480q0-33 23.5-56.5T240-560q33 0 56.5 23.5T320-480q0 33-23.5 56.5T240-400Zm240 0q-33 0-56.5-23.5T400-480q0-33 23.5-56.5T480-560q33 0 56.5 23.5T560-480q0 33-23.5 56.5T480-400Zm240 0q-33 0-56.5-23.5T640-480q0-33 23.5-56.5T720-560q33 0 56.5 23.5T800-480q0 33-23.5 56.5T720-400Z"/>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Listado de canciones -->
+            <div class="flex-1 justify-between">
+                <ul class="list-reset flex flex-col space-y-3 items-center justify-between px-10 p-2">
+
+                    <!-- Completado | Esto es una canción -->
+                    <li class="space-y-2.5 w-full">
+                        <hr class="">
+                        <a href="" class="flex items-center space-x-4 px-2">
+                            <img src="assets/img/Buffalo%20Return%20To%20The%20Plains.jpeg" alt="Portada Pequeña"
+                                 class="w-15 h-15 object-cover rounded-lg basis-1/10">
+                            <div class="basis-8/10">
+                                <h3 class="text-md text-text">Buffalo Return To The Plains</h3>
+                                <p class="text-subtext">Jason Boland & The Stragglers</p>
+                            </div>
+                            <svg class="text-detalles basis-1/10" fill="currentColor" height="24px"
+                                 viewBox="0 -960 960 960" width="24px">
+                                <path d="M240-400q-33 0-56.5-23.5T160-480q0-33 23.5-56.5T240-560q33 0 56.5 23.5T320-480q0 33-23.5 56.5T240-400Zm240 0q-33 0-56.5-23.5T400-480q0-33 23.5-56.5T480-560q33 0 56.5 23.5T560-480q0 33-23.5 56.5T480-400Zm240 0q-33 0-56.5-23.5T640-480q0-33 23.5-56.5T720-560q33 0 56.5 23.5T800-480q0 33-23.5 56.5T720-400Z"/>
+                            </svg>
+                        </a>
+                    </li>
+
+                    <!-- Completado | Esto es una canción -->
+                    <li class="space-y-2.5 w-full">
+                        <hr class="">
+                        <a href="" class="flex items-center space-x-4 px-2">
+                            <img src="assets/img/BYD.jpeg" alt="Portada Pequeña"
+                                 class="w-15 h-15 object-cover rounded-lg basis-1/10">
+                            <div class="basis-8/10">
+                                <h3 class="text-md text-text">BYD</h3>
+                                <p class="text-subtext">Niis</p>
+                            </div>
+                            <svg class="text-detalles basis-1/10" fill="currentColor" height="24px"
+                                 viewBox="0 -960 960 960" width="24px">
+                                <path d="M240-400q-33 0-56.5-23.5T160-480q0-33 23.5-56.5T240-560q33 0 56.5 23.5T320-480q0 33-23.5 56.5T240-400Zm240 0q-33 0-56.5-23.5T400-480q0-33 23.5-56.5T480-560q33 0 56.5 23.5T560-480q0 33-23.5 56.5T480-400Zm240 0q-33 0-56.5-23.5T640-480q0-33 23.5-56.5T720-560q33 0 56.5 23.5T800-480q0 33-23.5 56.5T720-400Z"/>
+                            </svg>
+                        </a>
+                    </li>
+
+                    <!-- Completado | Esto es una canción -->
+                    <li class="space-y-2.5 w-full">
+                        <hr class="">
+                        <a href="" class="flex items-center space-x-4 px-2">
+                            <img src="assets/img/Dead.jpeg" alt="Portada Pequeña"
+                                 class="w-15 h-15 object-cover rounded-lg basis-1/10">
+                            <div class="basis-8/10">
+                                <h3 class="text-md text-text">Dead</h3>
+                                <p class="text-subtext">Ingrown</p>
+                            </div>
+                            <svg class="text-detalles basis-1/10" fill="currentColor" height="24px"
+                                 viewBox="0 -960 960 960" width="24px">
+                                <path d="M240-400q-33 0-56.5-23.5T160-480q0-33 23.5-56.5T240-560q33 0 56.5 23.5T320-480q0 33-23.5 56.5T240-400Zm240 0q-33 0-56.5-23.5T400-480q0-33 23.5-56.5T480-560q33 0 56.5 23.5T560-480q0 33-23.5 56.5T480-400Zm240 0q-33 0-56.5-23.5T640-480q0-33 23.5-56.5T720-560q33 0 56.5 23.5T800-480q0 33-23.5 56.5T720-400Z"/>
+                            </svg>
+                        </a>
+                    </li>
+
+                    <!-- Completado | Esto es una canción -->
+                    <li class="space-y-2.5 w-full">
+                        <hr class="">
+                        <a href="" class="flex items-center space-x-4 px-2">
+                            <img src="assets/img/Waiting.jpeg" alt="Portada Pequeña"
+                                 class="w-15 h-15 object-cover rounded-lg basis-1/10">
+                            <div class="basis-8/10">
+                                <h3 class="text-md text-text">Waiting</h3>
+                                <p class="text-subtext">Bury Tomorrow</p>
+                            </div>
+                            <svg class="text-detalles basis-1/10" fill="currentColor" height="24px"
+                                 viewBox="0 -960 960 960" width="24px">
+                                <path d="M240-400q-33 0-56.5-23.5T160-480q0-33 23.5-56.5T240-560q33 0 56.5 23.5T320-480q0 33-23.5 56.5T240-400Zm240 0q-33 0-56.5-23.5T400-480q0-33 23.5-56.5T480-560q33 0 56.5 23.5T560-480q0 33-23.5 56.5T480-400Zm240 0q-33 0-56.5-23.5T640-480q0-33 23.5-56.5T720-560q33 0 56.5 23.5T800-480q0 33-23.5 56.5T720-400Z"/>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <!-- Listado de canciones -->
+            <div class="flex-1 justify-between">
+                <ul class="list-reset flex flex-col space-y-3 items-center justify-between px-10 p-2">
+
+                    <!-- Completado | Esto es una canción -->
+                    <li class="space-y-2.5 w-full">
+                        <hr class="">
+                        <a href="" class="flex items-center space-x-4 px-2">
+                            <img src="assets/img/Goodbye,%20Sunshine.jpeg" alt="Portada Pequeña"
+                                 class="w-15 h-15 object-cover rounded-lg basis-1/10">
+                            <div class="basis-8/10">
+                                <h3 class="text-md text-text">Goodbye, Sunshine</h3>
+                                <p class="text-subtext">Coheed and Cambria</p>
+                            </div>
+                            <svg class="text-detalles basis-1/10" fill="currentColor" height="24px"
+                                 viewBox="0 -960 960 960" width="24px">
+                                <path d="M240-400q-33 0-56.5-23.5T160-480q0-33 23.5-56.5T240-560q33 0 56.5 23.5T320-480q0 33-23.5 56.5T240-400Zm240 0q-33 0-56.5-23.5T400-480q0-33 23.5-56.5T480-560q33 0 56.5 23.5T560-480q0 33-23.5 56.5T480-400Zm240 0q-33 0-56.5-23.5T640-480q0-33 23.5-56.5T720-560q33 0 56.5 23.5T800-480q0 33-23.5 56.5T720-400Z"/>
+                            </svg>
+                        </a>
+                    </li>
+
+                    <!-- Completado | Esto es una canción -->
+                    <li class="space-y-2.5 w-full">
+                        <hr class="">
+                        <a href="" class="flex items-center space-x-4 px-2">
+                            <img src="assets/img/Patching%20Holes%20In%20A%20Dead%20Star.jpeg" alt="Portada Pequeña"
+                                 class="w-15 h-15 object-cover rounded-lg basis-1/10">
+                            <div class="basis-8/10">
+                                <h3 class="text-md text-text">Patching Holes In A Dead Star</h3>
+                                <p class="text-subtext">Staticlone</p>
+                            </div>
+                            <svg class="text-detalles basis-1/10" fill="currentColor" height="24px"
+                                 viewBox="0 -960 960 960" width="24px">
+                                <path d="M240-400q-33 0-56.5-23.5T160-480q0-33 23.5-56.5T240-560q33 0 56.5 23.5T320-480q0 33-23.5 56.5T240-400Zm240 0q-33 0-56.5-23.5T400-480q0-33 23.5-56.5T480-560q33 0 56.5 23.5T560-480q0 33-23.5 56.5T480-400Zm240 0q-33 0-56.5-23.5T640-480q0-33 23.5-56.5T720-560q33 0 56.5 23.5T800-480q0 33-23.5 56.5T720-400Z"/>
+                            </svg>
+                        </a>
+                    </li>
+
+                    <!-- Completado | Esto es una canción -->
+                    <li class="space-y-2.5 w-full">
+                        <hr class="">
+                        <a href="" class="flex items-center space-x-4 px-2">
+                            <img src="assets/img/Primal%20Pulse%20Thunder.jpeg" alt="Portada Pequeña"
+                                 class="w-15 h-15 object-cover rounded-lg basis-1/10">
+                            <div class="basis-8/10">
+                                <h3 class="text-md text-text">Primal Pulse Thunder</h3>
+                                <p class="text-subtext">Purified in Blood</p>
+                            </div>
+                            <svg class="text-detalles basis-1/10" fill="currentColor" height="24px"
+                                 viewBox="0 -960 960 960" width="24px">
+                                <path d="M240-400q-33 0-56.5-23.5T160-480q0-33 23.5-56.5T240-560q33 0 56.5 23.5T320-480q0 33-23.5 56.5T240-400Zm240 0q-33 0-56.5-23.5T400-480q0-33 23.5-56.5T480-560q33 0 56.5 23.5T560-480q0 33-23.5 56.5T480-400Zm240 0q-33 0-56.5-23.5T640-480q0-33 23.5-56.5T720-560q33 0 56.5 23.5T800-480q0 33-23.5 56.5T720-400Z"/>
+                            </svg>
+                        </a>
+                    </li>
+
+                    <!-- Completado | Esto es una canción -->
+                    <li class="space-y-2.5 w-full">
+                        <hr class="">
+                        <a href="" class="flex items-center space-x-4 px-2">
+                            <img src="assets/img/shallow%20ecstasy.jpeg" alt="Portada Pequeña"
+                                 class="w-15 h-15 object-cover rounded-lg basis-1/10">
+                            <div class="basis-8/10">
+                                <h3 class="text-md text-text">Fata Morgana</h3>
+                                <p class="text-subtext">Spiritbox</p>
+                            </div>
+                            <svg class="text-detalles basis-1/10" fill="currentColor" height="24px"
+                                 viewBox="0 -960 960 960" width="24px">
+                                <path d="M240-400q-33 0-56.5-23.5T160-480q0-33 23.5-56.5T240-560q33 0 56.5 23.5T320-480q0 33-23.5 56.5T240-400Zm240 0q-33 0-56.5-23.5T400-480q0-33 23.5-56.5T480-560q33 0 56.5 23.5T560-480q0 33-23.5 56.5T480-400Zm240 0q-33 0-56.5-23.5T640-480q0-33 23.5-56.5T720-560q33 0 56.5 23.5T800-480q0 33-23.5 56.5T720-400Z"/>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+
+        </div>
+
     </div>
+
 
 </main>
 
